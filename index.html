@@ -1,0 +1,646 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en" itemscope >
+<!--<![endif]-->
+<head>
+<link rel="stylesheet" href="animations.css">
+<script src="jquery-1.12.0.js"></script>
+<meta charset="utf-8">
+<!-- Use the .htaccess and remove these lines to avoid edge case issues.
+			 More info: h5bp.com/b/378 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>YAMIN - UX UI Web and Interaction Designer</title>
+<meta name="description" content="YAMIN HAMEED - UX UI Web Mobile and Interaction Designer living in Srinagar kashmir"/>
+<meta name="keywords" content="yamin, hameed, yamin hamid, yaminhameed, ux designer, ui designer, talented, talent, interaction design, interaction designer,creative, kashmiri, UX Designer, UI Designer, Web Designer,Front-end developer,, web designer, ui/ux designer, Interactive designer,">
+<!-- Google+ Metadata /-->
+<meta itemprop="name" content="">
+<meta itemprop="description" content="">
+<meta itemprop="image" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<link rel="stylesheet" href="css/imports.css">
+<script src="js/libs/modernizr-2.6.2.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<meta name="robots" content="noindex, nofollow"/>
+<!-- abril font -->
+<link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+<!-- san font -->
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,400italic,600italic' rel='stylesheet' type='text/css'>
+<!-- serif font -->
+<link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/plusgallery.css">
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<!-- parallax image -->
+<style>.image-one{
+background:url("img/horse.jpg");
+background-attachment:fixed;
+background-size:cover;
+}
+.image-two{
+background:url("img/wireframe.jpg");
+background-attachment:fixed;
+background-size:cover;
+}
+.image-three{
+background:url("img/sunset_leandropuca.jpg");
+background-attachment:fixed;
+background-size:cover;
+}
+/* add your logo width and height for project loading screen */
+.loading-screen .logo{
+width: 73px;
+height: 26px;
+}
+</style>
+</head>
+<script>
+
+	$(window).scroll(function() {
+		$('#lefticon').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("slideRight");
+			}
+		});
+	});
+
+
+		$(window).scroll(function() {
+		$('#righticon').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("slideLeft");
+			}
+		});
+	});
+
+
+			$(window).scroll(function() {
+		$('#bottomicon').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("slideUp");
+			}
+		});
+	});
+
+
+
+
+
+
+	$(window).scroll(function() {
+		$('.profile_pic').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("slideRight");
+			}
+		});
+	});
+
+
+		$(window).scroll(function() {
+		$('#animate_aboutme').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("slideLeft");
+			}
+		});
+	});
+
+
+	
+</script>
+<body>
+<!-- Preloader -->
+
+<!-- header -->
+<header>
+<div class="row">
+	<!-- logo -->
+	<div class="three columns logo">
+		<a href="index.html">
+		<img src="img/leandropuca_logo.png" alt="logo" class="mylogo">
+		</a>
+	</div>
+	<!-- navigation -->
+	<div class="nine columns" id="nav">
+		<div class="nav-button">
+			<a class="white-text"><i class="icon-reorder"></i></a>
+		</div>
+		
+		
+		
+		<!-- link to your pages -->
+			<ul class="navigation">
+				<li class="active"><a href="index.html">HOME</a></li>
+				<li ><a href="portfolio.html">Portfolio</a></li>
+				
+			</ul>
+	</div>
+</div>
+</header>
+<!-- end header -->
+
+<!-- begin intro-->
+<div id="intro" class="tint">
+	<!-- intro text goes here -->
+	<section class="row intro-text">
+	<h1 class="myname"><span class="uppercase">This is YAMIN HAMEED, a UX/UI <span class="abril">&amp;</span> Interaction designer</span></h1>
+	
+	<!-- intro text carousel -->
+	<div class="intro-text-slider">
+	<ul class="slides">
+	<li>
+	<h5>UX & UI DESIGNER.</h5>
+	</li>
+	
+	<li>
+	<h5>INTERACTION DESIGNER.</h5>
+	</li>
+	
+	<li>
+	<h5>FRONTEND DEVELOPER.</h5>
+	</li>
+	</ul>
+	</div>
+	</section>
+	<!-- down arrow -->
+	<div class="down-arrow">
+		<a href="index.html#about" class="target"><i class="icon-chevron-down"></i></a>
+	</div>
+</div>
+<!-- end intro -->
+
+<!-- BEGIN SERVICES -->
+<div id="services">
+	<div class="bluee">
+		<section class="row heading">
+		<!-- section heading -->
+		<h3>SKILLS <span class="abril">&amp;</span> SERVICES</h3>
+		<h2 class="ten columns centered s-bold"><span class="uppercase">Yamin has 2-years experience as a UX/UI Designer (front-end developer), Microsoft Student partner </span></h2>
+		</section>
+		
+		<!-- begin services -->
+		<section class="row midtoppadding">
+		
+		<!-- service one -->
+		<div class="four columns service">
+			<div class="icon" id="lefticon">
+				<!-- you can replace below gif image with fontawesome icon -->
+				<img src="img/icons/light/webdev-light.gif" class="gif-icon" alt="iconnn"/>
+			</div>
+			<!-- service info -->
+			<h5 class="s-bold">Front End Development</h5>
+			<p>
+				 HTML / CSS / HTML5 / CSS3 / JAVASCRIPT / JQUERY /  PHP / DRUPAL / PYTHON / RUBY / NODE.JS
+			</p>
+			
+		</div>
+		
+		<!-- service two -->
+		<div class="four columns service">
+			<div class="icon" id="bottomicon">
+				<!-- you can replace below gif image with fontawesome icon -->
+				<img src="img/icons/light/webdes-light.gif" class="gif-icon" alt="iconnn"/>
+			</div>
+			<!-- service info -->
+			<h5 class="s-bold">Art Direction</h5>
+			<p>
+				 UX DESIGN / UI DESIGN / WEB DESIGN / USER INTERFACE DESIGN / INTERACTION DESIGN / CREATIVE STRATEGY / PSUEDO PROGRAMMER
+			</p>
+			
+		</div>
+		
+		
+		<!-- service three -->
+		<div class="four columns service">
+			<div class="icon" id="righticon">
+				<!-- you can replace below gif image with fontawesome icon -->
+				<img src="img/icons/light/logo-light.gif" class="gif-icon" alt="iconnn"/>
+			</div>
+			<!-- service info -->
+			<h5 class="s-bold">Design &amp; Identity</h5>
+			<p>
+				 FINAL CUT PRO / LOGO DESIGN / ICON DESIGN
+			</p>
+			
+		</div>
+		</section>
+		
+		</div>
+	<!-- end black -->
+</div>
+<!-- end services -->
+
+
+<!-- begin about -->
+<div id="about">
+	<div class="white">		
+		<section class="row heading">
+		<!-- section heading -->
+		<h3>A LITTLE ABOUT ME</h3>
+		<h2 class="ten columns centered s-bold">"STAY HUNGRY STAY FOOLISH" <br><span class="cit">- cit. Steve Jobs</span></h2>
+		</section>
+		
+		<section class="row midtoppadding">
+		<div class="ten columns centered">
+			<div class="six columns">
+				<!-- profile picture -->
+				<img src="img/me.jpeg" class="profile_pic" alt="profile pic"/>
+				<!-- italic text -->
+				<div class="eight columns centered">
+					<h5 class="s-bold italic grey-text center">"And yes, my favorite application is Instagram."</h5>
+				</div>
+			</div>
+			<!-- about info -->
+			<div class="six columns about-text" id="animate_aboutme">
+				
+				<p>yamin ? Ordinary, Direct, Fragile, loner, stalker-ish, pacifist, weird and wackey, Emotionally Retarted and commitment-Minded. <br>
+					 I’m a designer with a penchant for the web, interaction design, and typography. I like scratching my own itch and writing about design, courage, and lack thereof.I build a lot of things with my significant other and partner in crime, <a href="www.facebook.com/khalid.yasee">Khalid Majeed </a> . I’m a huge advocate for side projects and love working on them in my spare time. If you'd like to talk design, Apple , or want to grab a coffee, <a href="8803485816"> feel free to reach out </a>
+<p>As Steve Jobs said: "Stay hungry stay foolish" I never stopped to learn and study, growing up with latest technologies. I'm also a Apple fan &hearts; </p>
+
+<p>These books will teach you more than their money’s worth about design, writing, and life. Don’t forget to close them every once in a while, too. <a href="flipkart.com">Rework, <a href="flipkart.com"> Book of Disquiet </a> </p>
+				
+				<!-- button 
+				<a href="#work" class="target rise-btn dark pull_right">VIEW MY WORK</a>-->
+			</div>
+		</div>
+		</section>
+	</div>
+	<!-- end white -->
+    
+    
+    
+<div class="white midpadding">
+	<section class="row left midbottompadding">
+   
+	
+	</section>
+</div> <!-- end about -->
+	
+	<div class="grey">
+		<!-- stat section heading -->
+		<section class="row heading">
+		<h3 class="s-bold">SOME RANDOM FACTS FOR FUN</h3>
+		</section>
+		
+		<!-- animating statistics -->
+		<section class="row center bigtoppadding">
+		<div class="three columns">
+			<!-- add stat number to data-perc -->
+			<div class="stat-counter" data-perc="3">
+				<span class="count"></span>
+				<h5 class="stat-title">YEARS EXPERIENCE</h5>
+			</div>
+		</div>
+		<!-- END three COLUMNS -->
+		<div class="three columns">
+			<!-- add stat number to data-perc -->
+			<div class="stat-counter" data-perc="0">
+				<span class="count"></span>
+				<h5 class="stat-title">NOMINATION/AWARDS WON</h5>
+			</div>
+		</div>
+		<!-- END three COLUMNS -->
+		<div class="three columns">
+			<!-- add stat number to data-perc -->
+			<div class="stat-counter" data-perc="4">
+				<span class="count"></span>
+				<h5 class="stat-title">DREAMS REACHED</h5>
+			</div>
+		</div>
+		<!-- END three COLUMNS -->
+		<div class="three columns">
+			<!-- add stat number to data-perc -->
+			<div class="stat-counter" data-perc="200">
+				<span class="count"></span>
+				<h5 class="stat-title">SMILES GIVEN AWAY TODAY</h5>
+			</div>
+		</div>
+		<!-- END three COLUMNS -->
+		</section>
+	</div>
+
+
+	<!-- parallax section -->
+	<!-- add parallax image class defined in 'head' above -->
+	<div class="image-one" data-stellar-background-ratio="0.5">
+		<div class="tint largepadding">
+			<!-- section heading -->
+			<section class="row heading">
+			<h1>I DELIVER CREATIVE OUT OF THE BOX SOLUTIONS</h1>
+			</section>
+			
+			<section class="row dots">
+			<!-- first block -->
+			<div class="four columns center">
+				<!-- main icon -->
+				<div class="main-icon">
+					<i class="icon-resize-full"></i>
+				</div>
+				<!-- columns info -->
+				<h4>RESPONSIVE DESIGN</h4>
+				<p>
+					 Every website that I create is responsive in order to be perfect for desktops, tablets and mobile devices.
+				</p>
+			</div>
+			
+			<!-- second block -->
+			<div class="four columns center">
+				<!-- main icon -->
+				<div class="main-icon">
+					<i class="icon-edit"></i>
+				</div>
+				<!-- columns info -->
+				<h4>WIREFRAMES</h4>
+				<p>
+					 For important projects I usually create wireframes to understand the right position of every element and the right behavior for each of them with Indesign.
+				</p>
+			</div>
+			
+			<!-- third block -->
+			<div class="four columns center">
+				<!-- main icon -->
+				<div class="main-icon">
+					<i class="icon-list"></i>
+				</div>
+				<!-- columns info -->
+				<h4>WELL DOCUMENTED</h4>
+				<p>
+					 For important projects I generate prototypes with Keynotes or After Effect, it depends on the complexity of the project. 
+				</p>
+			</div>
+			<!-- end four columns -->
+			</section>
+		</div>
+	</div>
+</div>
+<!-- END ABOUT -->
+	
+	<!-- begin method -->
+<div id="method">
+	<div class="image-two" data-stellar-background-ratio="0.5">
+    <div class="tint largepadding">
+		<!-- section heading -->
+		<section class="row heading">
+		<h3>MY WORK METHOD</h3>
+		<h2>I am a problem solver, detailed and extremely collaborative, passionate, and positive.</h2>
+		</section>
+		
+		<section class="row bigtoppadding">
+		<!-- method divided into two six containers -->
+		<div class="six columns">
+			<!-- method 1 -->
+			<div class="method-field">
+				<div class="two columns">
+					<span class="method-number">01</span>
+				</div>
+				<!-- method detail -->
+				<div class="ten columns method-detail">
+					<h5>DISCUSS IDEAS</h5>
+					<p>
+						
+					</p>
+				</div>
+			</div>
+			
+			<!-- method 2 -->
+			<div class="method-field">
+				<div class="two columns">
+					<span class="method-number">02</span>
+				</div>
+				<!-- method detail -->
+				<div class="ten columns method-detail">
+					<h5>PRESENT DOCUMENTATION and PROTOTYPE</h5>
+					<p>
+						
+					</p>
+				</div>
+			</div>
+			
+			<!-- method 3 -->
+			<div class="method-field">
+				<div class="two columns">
+					<span class="method-number">03</span>
+				</div>
+				<!-- method detail -->
+				<div class="ten columns method-detail">
+					<h5>DESIGN &amp; DEVELOP CONCEPTS</h5>
+					<p>
+						
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="six columns">
+			<!-- method 4 -->
+			<div class="method-field">
+				<div class="two columns">
+					<span class="method-number">04</span>
+				</div>
+				<!-- method detail -->
+				<div class="ten columns method-detail">
+					<h5>TESTING &amp; APPROVAL</h5>
+					<p>
+						
+					</p>
+				</div>
+			</div>
+			
+			<!-- method 5 -->
+			<div class="method-field">
+				<div class="two columns">
+					<span class="method-number">05</span>
+				</div>
+				<!-- method detail -->
+				<div class="ten columns method-detail">
+					<h5>PRODUCT LAUNCH</h5>
+					<p>
+						
+					</p>
+				</div>
+			</div>
+		</div>
+		</section>
+	</div>
+    </div>
+</div>
+
+
+
+<!-- begin parallax 2 section 
+	add image class defined above for parallax -->
+
+
+
+
+<!-- begin footer -->
+<footer>
+<!-- section heading -->
+<section class="row heading">
+<h4>COME FIND ME</h4>
+<h5 class="eight columns centered grey-text">I Study at <a href="">SSM College of Engineering and Tech </a>, Maybe hanging out with my friends or sipping coffee at <a href=""> Lacima </a> Lets be friends. Don't forget to <a href="http://instagram.com/yaminhameed" target="_blank">follow me on Instagram</a></h5>
+</section>
+
+<section class="row heading">
+                    
+
+
+
+                    </section>
+
+<!-- social media icons -->
+<section class="row" id="social">
+<ul class="ring-list">
+	
+	<!-- link to phone info modal -->
+	<li class="fade">
+		<a href="index.html#" class="switch" gumby-trigger="#phone-info"><i class="icon-mail-forward"></i></a></li>
+	
+		<!-- add social media links here -->
+	<li><a href="https://www.facebook.com/" target="_blank"><i class="icon-facebook"></i></a></li>
+	<li><a href="https://twitter.com/" target="_blank"><i class="icon-twitter"></i></a></li>
+	<li><a href="http://www.linkedin.com/in/" target="_blank"><i class="icon-linkedin"></i></a></li>
+    <li><a href="http://instagram.com/yaaminhameed" target="_blank"><i class="icon-instagram"></i></a></li>
+</ul>
+</section>
+
+<!-- copyright -->
+<section class="row copyright">
+<p class="grey-text">
+	 ©Yamin Hamid. All rights reserved
+</p>
+</section>
+</footer>
+<!-- end footer -->
+
+<!-- PROJECT DETAILS CONTAINER -->
+<div id="portfolio-detail">
+	<div class="loading-screen">
+		<div class="logo">
+			<!-- add your logo link -->
+			<img src="img/logo.png" alt="logo">
+		</div>
+	</div>
+	<div class="ajax-section">
+		<div class="clearfix">
+			<!-- PROJECT NAVIGATION AND CLOSE BUTTON -->
+			<div class="ajax-nav">
+				<section class="row">
+				<ul class="project-nav">
+					<li class="prevProject"><a href="index.html#"><i class="icon-chevron-left"></i></a></li>
+					<li class="nextProject"><a href="index.html#"><i class="icon-chevron-right"></i></a></li>
+					<li class="closeProject"><a href="index.html#work"><i class="icon-remove"></i></a></li>
+				</ul>
+				<!-- END PROJECT NAVIGATION AND CLOSE BUTTON -->
+				</section>
+			</div>
+			<div class="loader">
+			</div>
+			<!-- PROJECT WILL LOAD INSIDE 'AJAX-INSIDE' -->
+			<div class="ajax-box">
+				<div id="ajax-outside">
+					<div id="ajax-inside">
+					</div>
+				</div>
+			</div>
+			<!-- END AJAX SECTION -->
+			<div class="clear">
+			</div>
+		</div>
+	</div>
+	<!-- end ajax section -->
+</div>
+<!-- end portfolio detail -->
+
+
+
+<!-- PHONE INFO MODAL -->
+<div class="modal" id="phone-info">
+	<div class="content black">
+		
+		<a class="close switch" gumby-trigger="|#phone-info"><i class="black-text icon-remove"></i></a>
+		<div class="row">
+			
+				<h4 class="s-bold">GET IN TOUCH.</h4>
+				<p>Sent me an email to:</p>
+				
+				<h3 class="grey-label">yaaminhameed{@}gmail.com</h3>
+				
+			
+		</div>
+	</div>
+</div>
+
+<!-- finish all  html code -->
+<!-- jquery scripts below -->
+
+<!-- Grab Google CDN's jQuery, fall back to local if offline -->
+<!-- 2.0 for modern browsers, 1.10 for .oldie -->
+<script>
+	var oldieCheck = Boolean(document.getElementsByTagName('html')[0].className.match(/\soldie\s/g));
+	if(!oldieCheck) {
+	document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"><\/script>');
+	} else {
+	document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"><\/script>');
+	}
+	</script>
+<script>
+	if(!window.jQuery) {
+	if(!oldieCheck) {
+	  document.write('<script src="js/libs/jquery-2.0.2.min.js"><\/script>');
+	} else {
+	  document.write('<script src="js/libs/jquery-1.10.1.min.js"><\/script>');
+	}
+	}
+	</script>
+<!-- gumby, gumby init and gumby ui modules in one file -->
+<script src="js/libs/gumby.min.js"></script>
+<!-- begin our scripts -->
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+<script src="js/matchMedia.js"></script>
+<script src="js/ajax.js"></script>
+
+<!-- intro background can be turned into a slideshow -->
+<script src="js/background.js"></script>
+
+<!-- loader -->
+<script type="text/javascript">
+    //<![CDATA[
+
+        $(window).load(function() { // makes sure the whole site is loaded
+            $("#status").fadeOut(); // will first fade out the loading animation
+            $("#preloader").delay(350).fadeOut("slow"); // will fade out the grey DIV that covers the website.      
+})
+    //]]>
+</script>
+
+<script >
+	
+	 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-71904364-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
